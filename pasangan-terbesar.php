@@ -4,7 +4,7 @@ function pasangan_terbesar($angka){
     $current = 0;
     $max = 0;
     $len = strlen($angka);
-    while($current < $len){
+    while($current < $len-1){
         if((int)substr($angka,$current,2) > $max){
             $max = (int)substr($angka,$current,2);
         } 
@@ -19,5 +19,4 @@ echo pasangan_terbesar(12783456); // 83
 echo pasangan_terbesar(910233); // 91
 echo pasangan_terbesar(71856421); // 85
 echo pasangan_terbesar(79918293); // 99
-
 ?>
