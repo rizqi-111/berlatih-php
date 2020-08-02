@@ -26,7 +26,6 @@
 // echo hitung("99-2")."<br>";
 
 function perolehan_medali($arr){
-//kode di sini
 
     $result = [];
     foreach($arr as $a){
